@@ -1,0 +1,56 @@
+.task-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  color: #000;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item.active .task-item__text {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.task-item.active .task-item__index {
+  opacity: 0.5;
+}
+
+.task-item__content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+}
+
+.task-item__text {
+  font-weight: 500;
+}
+
+.task-item__controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.task-item__delete {
+  background: red;
+}
+
+.task-item__edit {
+  background: blue;
+}
+
+.task-item__done {
+  background: limegreen;
+}
+
+.task-item__cancel {
+  background: red;
+}
+
+.task-item__input {
+  background: #ccc;
+  border-radius: 8px;
+}

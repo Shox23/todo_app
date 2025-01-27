@@ -1,0 +1,14 @@
+.task-form {
+  background: #fff;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.task-form__btn {
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
